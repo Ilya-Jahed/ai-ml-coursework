@@ -154,10 +154,10 @@ Outputs: `results/plots/pso_vs_aco_convergence.png`, `results/tables/pso_vs_aco_
 smart-traffic-light-controller/
 ├── data/simulation_logs/            generated run data
 ├── src/
-│   ├── simulation/                  Phase 1 — traffic simulation       ✅
-│   ├── fuzzy/                       Phase 2 — fuzzy controller         ✅
-│   ├── optimization/                Phase 3 — pso.py, aco.py          ✅
-│   └── cost_function.py             Phase 2 — C = αW + βQ + γS         ✅
+│   ├── simulation/                  Phase 1 — traffic simulation      
+│   ├── fuzzy/                       Phase 2 — fuzzy controller         
+│   ├── optimization/                Phase 3 — pso.py, aco.py          
+│   └── cost_function.py             Phase 2 — C = αW + βQ + γS         
 ├── experiments/
 │   ├── test_traffic_env.py          Phase 1 smoke test
 │   ├── test_fuzzy_controller.py     Phase 2 smoke test
